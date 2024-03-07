@@ -3,10 +3,8 @@
 import os
 import sys
 
-
 def main(*args):
     database_user, base_dir, filename = args + (None,) * (3 - len(args))
-
     os.environ["SPYGLASS_BASE_DIR"] = base_dir  # need to set for import to work
 
     from spyglass.settings import SpyglassConfig  # noqa F401

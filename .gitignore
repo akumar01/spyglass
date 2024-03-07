@@ -5,8 +5,8 @@ mountainsort4_output/
 mysql_config
 
 # Notebooks
-*.ipynb
-!notebooks/[0-9]*.ipynb
+#*.ipynb
+#!notebooks/[0-9]*.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
